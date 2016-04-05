@@ -7,14 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7B112A063A28FBA848134543 /* Pods_PopTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 344A9A12C8181FB8046C99D3 /* Pods_PopTest.framework */; };
+		F240B0E51CA652B500A1FAE9 /* pop.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F240B0E41CA652B500A1FAE9 /* pop.framework */; };
+		F240B0E61CA652B500A1FAE9 /* pop.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F240B0E41CA652B500A1FAE9 /* pop.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F240B0E91CA652BA00A1FAE9 /* Pods_PopTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F240B0E81CA652BA00A1FAE9 /* Pods_PopTest.framework */; };
+		F240B0EA1CA652BA00A1FAE9 /* Pods_PopTest.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F240B0E81CA652BA00A1FAE9 /* Pods_PopTest.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F240B0EC1CA652C000A1FAE9 /* AsyncDisplayKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F240B0EB1CA652C000A1FAE9 /* AsyncDisplayKit.framework */; };
+		F240B0ED1CA652C000A1FAE9 /* AsyncDisplayKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F240B0EB1CA652C000A1FAE9 /* AsyncDisplayKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F240B0EF1CA652C500A1FAE9 /* PINCache.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F240B0EE1CA652C500A1FAE9 /* PINCache.framework */; };
+		F240B0F01CA652C500A1FAE9 /* PINCache.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F240B0EE1CA652C500A1FAE9 /* PINCache.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F240B0F21CA652CA00A1FAE9 /* PINRemoteImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F240B0F11CA652CA00A1FAE9 /* PINRemoteImage.framework */; };
+		F240B0F31CA652CA00A1FAE9 /* PINRemoteImage.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F240B0F11CA652CA00A1FAE9 /* PINRemoteImage.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F24850721CA6C7C4004E3197 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F24850711CA6C7C4004E3197 /* MainViewController.m */; };
+		F24850751CA6C7FB004E3197 /* NextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F24850741CA6C7FB004E3197 /* NextViewController.m */; };
 		F27375611CA64E9200CD7849 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27375601CA64E9200CD7849 /* AppDelegate.swift */; };
-		F27375631CA64E9200CD7849 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27375621CA64E9200CD7849 /* ViewController.swift */; };
 		F27375661CA64E9200CD7849 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F27375641CA64E9200CD7849 /* Main.storyboard */; };
 		F27375691CA64E9200CD7849 /* PopTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F27375671CA64E9200CD7849 /* PopTest.xcdatamodeld */; };
 		F273756B1CA64E9200CD7849 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F273756A1CA64E9200CD7849 /* Assets.xcassets */; };
 		F273756E1CA64E9200CD7849 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F273756C1CA64E9200CD7849 /* LaunchScreen.storyboard */; };
 		F27375791CA64E9200CD7849 /* PopTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27375781CA64E9200CD7849 /* PopTestTests.swift */; };
 		F27375841CA64E9200CD7849 /* PopTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27375831CA64E9200CD7849 /* PopTestUITests.swift */; };
+		F2C8C9AD1CA6E2AF00F27B0A /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C8C9AC1CA6E2AF00F27B0A /* ThirdViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,10 +47,40 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		F240B0E71CA652B500A1FAE9 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				F240B0F31CA652CA00A1FAE9 /* PINRemoteImage.framework in Embed Frameworks */,
+				F240B0EA1CA652BA00A1FAE9 /* Pods_PopTest.framework in Embed Frameworks */,
+				F240B0F01CA652C500A1FAE9 /* PINCache.framework in Embed Frameworks */,
+				F240B0E61CA652B500A1FAE9 /* pop.framework in Embed Frameworks */,
+				F240B0ED1CA652C000A1FAE9 /* AsyncDisplayKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		097CD9BE4C98E184833E733E /* Pods-PopTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PopTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PopTest/Pods-PopTest.debug.xcconfig"; sourceTree = "<group>"; };
+		2512B74839183DB933668D09 /* Pods-PopTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PopTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-PopTest/Pods-PopTest.release.xcconfig"; sourceTree = "<group>"; };
+		344A9A12C8181FB8046C99D3 /* Pods_PopTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PopTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F240B0E41CA652B500A1FAE9 /* pop.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; name = pop.framework; path = "/Users/wangkang/Library/Developer/Xcode/DerivedData/PopTest-gxfhvrhpbzyzzedkwkgqamrlzeuz/Build/Products/Debug-iphonesimulator/pop.framework"; sourceTree = "<absolute>"; };
+		F240B0E81CA652BA00A1FAE9 /* Pods_PopTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; name = Pods_PopTest.framework; path = "/Users/wangkang/Library/Developer/Xcode/DerivedData/PopTest-gxfhvrhpbzyzzedkwkgqamrlzeuz/Build/Products/Debug-iphonesimulator/Pods_PopTest.framework"; sourceTree = "<absolute>"; };
+		F240B0EB1CA652C000A1FAE9 /* AsyncDisplayKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; name = AsyncDisplayKit.framework; path = "/Users/wangkang/Library/Developer/Xcode/DerivedData/PopTest-gxfhvrhpbzyzzedkwkgqamrlzeuz/Build/Products/Debug-iphonesimulator/AsyncDisplayKit.framework"; sourceTree = "<absolute>"; };
+		F240B0EE1CA652C500A1FAE9 /* PINCache.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; name = PINCache.framework; path = "/Users/wangkang/Library/Developer/Xcode/DerivedData/PopTest-gxfhvrhpbzyzzedkwkgqamrlzeuz/Build/Products/Debug-iphonesimulator/PINCache.framework"; sourceTree = "<absolute>"; };
+		F240B0F11CA652CA00A1FAE9 /* PINRemoteImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; name = PINRemoteImage.framework; path = "/Users/wangkang/Library/Developer/Xcode/DerivedData/PopTest-gxfhvrhpbzyzzedkwkgqamrlzeuz/Build/Products/Debug-iphonesimulator/PINRemoteImage.framework"; sourceTree = "<absolute>"; };
+		F248506F1CA6C7C4004E3197 /* PopTest-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PopTest-Bridging-Header.h"; sourceTree = "<group>"; };
+		F24850701CA6C7C4004E3197 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		F24850711CA6C7C4004E3197 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		F24850731CA6C7FB004E3197 /* NextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NextViewController.h; sourceTree = "<group>"; };
+		F24850741CA6C7FB004E3197 /* NextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NextViewController.m; sourceTree = "<group>"; };
 		F273755D1CA64E9200CD7849 /* PopTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PopTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F27375601CA64E9200CD7849 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F27375621CA64E9200CD7849 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F27375651CA64E9200CD7849 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F27375681CA64E9200CD7849 /* PopTest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PopTest.xcdatamodel; sourceTree = "<group>"; };
 		F273756A1CA64E9200CD7849 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +92,7 @@
 		F273757F1CA64E9200CD7849 /* PopTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PopTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F27375831CA64E9200CD7849 /* PopTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopTestUITests.swift; sourceTree = "<group>"; };
 		F27375851CA64E9200CD7849 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2C8C9AC1CA6E2AF00F27B0A /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +100,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F240B0F21CA652CA00A1FAE9 /* PINRemoteImage.framework in Frameworks */,
+				F240B0EF1CA652C500A1FAE9 /* PINCache.framework in Frameworks */,
+				F240B0E91CA652BA00A1FAE9 /* Pods_PopTest.framework in Frameworks */,
+				F240B0EC1CA652C000A1FAE9 /* AsyncDisplayKit.framework in Frameworks */,
+				F240B0E51CA652B500A1FAE9 /* pop.framework in Frameworks */,
+				7B112A063A28FBA848134543 /* Pods_PopTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,13 +126,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7E1353D16407E55DA5A5B29F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				097CD9BE4C98E184833E733E /* Pods-PopTest.debug.xcconfig */,
+				2512B74839183DB933668D09 /* Pods-PopTest.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CF1BFC0CA60BEE79B053BC7C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				344A9A12C8181FB8046C99D3 /* Pods_PopTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F27375541CA64E9100CD7849 = {
 			isa = PBXGroup;
 			children = (
+				F240B0F11CA652CA00A1FAE9 /* PINRemoteImage.framework */,
+				F240B0EE1CA652C500A1FAE9 /* PINCache.framework */,
+				F240B0EB1CA652C000A1FAE9 /* AsyncDisplayKit.framework */,
+				F240B0E81CA652BA00A1FAE9 /* Pods_PopTest.framework */,
+				F240B0E41CA652B500A1FAE9 /* pop.framework */,
 				F273755F1CA64E9200CD7849 /* PopTest */,
 				F27375771CA64E9200CD7849 /* PopTestTests */,
 				F27375821CA64E9200CD7849 /* PopTestUITests */,
 				F273755E1CA64E9200CD7849 /* Products */,
+				7E1353D16407E55DA5A5B29F /* Pods */,
+				CF1BFC0CA60BEE79B053BC7C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,8 +174,13 @@
 			isa = PBXGroup;
 			children = (
 				F27375601CA64E9200CD7849 /* AppDelegate.swift */,
-				F27375621CA64E9200CD7849 /* ViewController.swift */,
 				F27375641CA64E9200CD7849 /* Main.storyboard */,
+				F2C8C9AC1CA6E2AF00F27B0A /* ThirdViewController.swift */,
+				F248506F1CA6C7C4004E3197 /* PopTest-Bridging-Header.h */,
+				F24850731CA6C7FB004E3197 /* NextViewController.h */,
+				F24850741CA6C7FB004E3197 /* NextViewController.m */,
+				F24850701CA6C7C4004E3197 /* MainViewController.h */,
+				F24850711CA6C7C4004E3197 /* MainViewController.m */,
 				F273756A1CA64E9200CD7849 /* Assets.xcassets */,
 				F273756C1CA64E9200CD7849 /* LaunchScreen.storyboard */,
 				F273756F1CA64E9200CD7849 /* Info.plist */,
@@ -135,9 +214,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F27375881CA64E9200CD7849 /* Build configuration list for PBXNativeTarget "PopTest" */;
 			buildPhases = (
+				A7B63158279945A0196998E3 /* Check Pods Manifest.lock */,
 				F27375591CA64E9100CD7849 /* Sources */,
 				F273755A1CA64E9100CD7849 /* Frameworks */,
 				F273755B1CA64E9100CD7849 /* Resources */,
+				8774E7F68E25F8C7A413ED74 /* Embed Pods Frameworks */,
+				D50DFD60568195439359514D /* Copy Pods Resources */,
+				F240B0E71CA652B500A1FAE9 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -254,13 +337,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8774E7F68E25F8C7A413ED74 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PopTest/Pods-PopTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A7B63158279945A0196998E3 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D50DFD60568195439359514D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PopTest/Pods-PopTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F27375591CA64E9100CD7849 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F24850751CA6C7FB004E3197 /* NextViewController.m in Sources */,
 				F27375691CA64E9200CD7849 /* PopTest.xcdatamodeld in Sources */,
-				F27375631CA64E9200CD7849 /* ViewController.swift in Sources */,
+				F2C8C9AD1CA6E2AF00F27B0A /* ThirdViewController.swift in Sources */,
+				F24850721CA6C7C4004E3197 /* MainViewController.m in Sources */,
 				F27375611CA64E9200CD7849 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -401,23 +534,32 @@
 		};
 		F27375891CA64E9200CD7849 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 097CD9BE4C98E184833E733E /* Pods-PopTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = PopTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wangkang0801.PopTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PopTest/PopTest-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		F273758A1CA64E9200CD7849 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2512B74839183DB933668D09 /* Pods-PopTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = PopTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wangkang0801.PopTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PopTest/PopTest-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -486,6 +628,7 @@
 				F273758A1CA64E9200CD7849 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F273758B1CA64E9200CD7849 /* Build configuration list for PBXNativeTarget "PopTestTests" */ = {
 			isa = XCConfigurationList;
@@ -494,6 +637,7 @@
 				F273758D1CA64E9200CD7849 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F273758E1CA64E9200CD7849 /* Build configuration list for PBXNativeTarget "PopTestUITests" */ = {
 			isa = XCConfigurationList;
@@ -502,6 +646,7 @@
 				F27375901CA64E9200CD7849 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
